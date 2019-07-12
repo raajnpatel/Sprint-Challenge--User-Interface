@@ -73,7 +73,7 @@ p {
     line-height: 1.4;
 }
 p:hover {
-    transform: scale(1.1);
+    transform: scale(1.25);
 }
 
 .container {
@@ -169,7 +169,7 @@ header {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 40%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -218,6 +218,47 @@ header {
 .sectionTwo {
     display: flex;
     width: 800px;
+    height: 400px;
+}
+.sectionTwo div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+.sectionTwo img {
+    width: 80%;
+    position: relative;
+    left: 39px;
+}
+.sectionTwo p {
+    width: 80%;
+    position: relative;
+    left: 48px;
+    bottom: 10px;
+}
+
+.sectionThree {
+    display: flex;
+    width: 800px;
+    height: 400px;
+}
+.sectionThree div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+.sectionThree img {
+    width: 80%;
+    position: relative;
+    left: 39px;
+}
+.sectionThree p {
+    width: 80%;
+    position: relative;
+    left: 48px;
+    bottom: 10px;
 }
 
 footer {
