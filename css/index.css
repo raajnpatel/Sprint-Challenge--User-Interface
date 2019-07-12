@@ -61,14 +61,91 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+h2 {
+    font-family: "Pacifico", serif;
+    text-align: center;
+    font-size: 24px;
 
+}
 p {
+    font-family: "Indie Flower", serif;
     line-height: 1.4;
+}
+p:hover {
+    transform: scale(1.1);
 }
 
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+.teal {
+    background: teal;
+}
+.gold {
+    background: gold;
+}
+.cadetblue {
+    background: cadetblue;
+}
+.coral {
+    background: coral;
+}
+.crimson {
+    background: crimson;
+}
+.forestgreen {
+    background: forestgreen;
+}
+.darkorchid {
+    background: darkorchid;
+}
+.hotpink {
+    background: hotpink;
+}
+.indigo {
+    background: indigo;
+}
+.dodgerblue {
+    background: dodgerblue;
+}
+
+nav {
+    width: 70%;
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+    top: 15px;
+    right: 20px;
+    /*height: 21px;*/
+}
+
+nav a {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    height: 21px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lambdaBlack {
+    background-image: url("../img/lambda-black.png");
+    width: 165px;
+    height: 50px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.jumbo {
+
 }
 
 .top-content {
@@ -104,7 +181,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /*background: black;*/
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -128,6 +205,7 @@ p {
 
 footer {
     width: 100%;
+    height: 50px;
     background: black;
 }
 
@@ -136,7 +214,9 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    position: relative;
+    left: 150px;
+    /*padding: 20px 2%;*/
     font-size: 14px;
 }
 
