@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /*border: 1px solid red;*/
 }
 
 html, body {
@@ -145,7 +146,18 @@ header {
 }
 
 .jumbo {
-
+    background-image: url("../img/jumbo.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
+}
+.jumboAbout {
+    background-image: url("../img/jumbo-about.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 100%;
 }
 
 .top-content {
@@ -201,6 +213,11 @@ header {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.sectionTwo {
+    display: flex;
+    width: 800px;
 }
 
 footer {
