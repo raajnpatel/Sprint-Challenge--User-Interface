@@ -335,3 +335,25 @@ li p {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.hwwImg {
+    background-image: url('https://futurewows.ie/wp-content/uploads/2017/05/Our-process-11.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    left: 66px;
+}
+.hwwList {
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/*.hwwTop {*/
+/*    display: flex;*/
+/*    height: 500px;*/
+/*    width: 90%;*/
+/*    justify-content: space-around;*/
+/*}*/
